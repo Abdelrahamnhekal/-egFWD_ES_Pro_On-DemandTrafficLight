@@ -1,0 +1,16 @@
+﻿  app.c
+E:\On-demand Traffic light control\On-demand Traffic light control\APP\app.c(15,2): warning C4013: 'TIMER0_Delay' undefined; assuming extern returning int
+E:\On-demand Traffic light control\On-demand Traffic light control\APP\app.c(55,4): warning C4013: 'TIMER0_reset' undefined; assuming extern returning int
+E:\On-demand Traffic light control\On-demand Traffic light control\APP\app.c(89,2): warning C4013: 'EXT_INT_init' undefined; assuming extern returning int
+E:\On-demand Traffic light control\On-demand Traffic light control\APP\app.c(96,2): warning C4013: 'EXT_INT_enable' undefined; assuming extern returning int
+  main.c
+E:\On-demand Traffic light control\On-demand Traffic light control\APP\app.c(15,2): warning C4013: 'TIMER0_Delay' undefined; assuming extern returning int
+E:\On-demand Traffic light control\On-demand Traffic light control\APP\app.c(55,4): warning C4013: 'TIMER0_reset' undefined; assuming extern returning int
+E:\On-demand Traffic light control\On-demand Traffic light control\APP\app.c(89,2): warning C4013: 'EXT_INT_init' undefined; assuming extern returning int
+E:\On-demand Traffic light control\On-demand Traffic light control\APP\app.c(96,2): warning C4013: 'EXT_INT_enable' undefined; assuming extern returning int
+  Generating Code...
+  LINK : E:\On-demand Traffic light control\x64\Debug\On-demand Traffic light control.exe not found or not built by the last incremental link; performing full link
+main.obj : error LNK2005: ISR already defined in app.obj
+main.obj : error LNK2005: appInit already defined in app.obj
+main.obj : error LNK2005: appStart already defined in app.obj
+E:\On-demand Traffic light control\x64\Debug\On-demand Traffic light control.exe : fatal error LNK1169: one or more multiply defined symbols found
